@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AdminLTE 3 | Starter</title>
+    <partial name="AdminLte/_Styles" />
+</head>
+<body class="hold-transition sidebar-mini">
+    <div class="wrapper">
+        <!-- Navbar -->
+        <partial name="AdminLte/_TopNavigation" />
+        <!-- Main Sidebar Container -->
+        <partial name="AdminLte/_MainNavigation" />
+        <!-- Content Wrapper. Contains page content -->
+        <div class="content-wrapper">
+            <!-- Header & Content Rendering -->
+            @RenderBody()
+        </div>
+        <!-- Main Footer -->
+        <partial name="AdminLte/_Footer" />
+    </div>    
+    <!-- REQUIRED SCRIPTS -->
+    <partial name="AdminLte/_Scripts"/>
+</body>
+</html>
